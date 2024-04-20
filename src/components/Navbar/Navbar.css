@@ -2,7 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    padding: 20px ;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #1F0016;
+    z-index: 10;
 }
 
 .nav-menu {
@@ -20,6 +26,7 @@
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
+    margin-right: 15rem;
 }
 
 .nav-connect:hover {
@@ -51,9 +58,15 @@
     display: none;
 }
 
+.alex {
+    margin-left: 10rem;
+}
+
 @media(max-width:768px) {
     .navbar {
-        margin: 20px 50px;
+        padding: 20px 50px;
+        height: 2rem;
+        justify-content: space-between;
     }
     .nav-connect {
         display: none;
@@ -90,7 +103,6 @@
         gap: 20px;
     }
     .alex {
-        position: fixed;
-        top: 0;
+      margin-left: 0;
     }
 }
