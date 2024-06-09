@@ -110,6 +110,11 @@
     transition: 0.5s;
 }
 
+.side {
+    height: 35rem;
+    width: 35rem;
+}
+
 @media(max-width:768px) {
     .about {
         gap: 80px;
